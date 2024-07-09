@@ -1,0 +1,34 @@
+{
+  "definitions": [
+    { 
+      "id": 1,
+      "word": "conductor",
+      "english": "driver",
+      "def": "La persona que maneja la direccion o va al mando de un vehiculo, con las excepciones que se detallan en la definicion de peaton.",
+      "def-2": "La persona a cuyo cargo esta un animal o animales.",
+      "def-3": "La persona a cuyo cargo esta un animal o animales.",
+      "def-especial": "En los vehiculos que ciirculen en funcion de aprendizaje de la conducion, el conductor es la persona que esta a cargo de los mandos adicionales."
+    },
+    { 
+      "id": 2,
+      "word": "peaton",
+      "english": "pedestrian",
+      "def": "Es la persona que, sin ser conductor, transita a pie por las vias o terrenos a los que hace referencia la definicion de vehiculo",
+      "def-2": "Quienes empujan o arrastran un coche de nino o de una persona con discapacidad o cualquier otro vehiculo sin motor de pequenas dimensiones.",
+      "def-3": "Los que conducen a pie un ciclo o ciclomotor de dos ruedas",
+      "def-4": "Las personas con discapacidad que circulan al paso en una silla de ruedads, con o sin motor."
+    },
+    {
+      "id": 3,
+      "word": "titular del vehiculo",
+      "english": "registered keeper of the vehicle with the DVLA",
+      "def": "La persona a cuyo nombre figura inscrito en vehiculo en el registro oficial correspodiente. El titular de un vehiculo esta obligado a:\\n 1. Facilitar a la Administracion la indentificacion del conductor del vehiculo en el momento de ser cometida una infraccion.\\n 2. Impedir que el vehiculo sea conducido por quienes nunca hubieren obtenido el permiso o licencia de conduccion correspondiente. "
+    },
+    {
+      "id": 1,
+      "word": "conductor habitual",
+      "english": "habitual driver",
+      "def": "La persona que contando con el permiso o licencia de conduccion necessario, ha sido designada por el titular de un vehiculo, previo su consentimiento, por ser aquella que de manera usual o con mayor frecuencia conduce dicho vehiculo. En este caso, las obligaciones del titular expuestas en el punto anterior se trasladan al conductor habitual."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "topics":[ 
+    {
+      "id": 1,
+      "category": "Definitions"
+    },
+    {
+      "id": 2,
+      "category":"Use of the Road"
+    },
+    {
+      "id": 3,
+      "category":"Speeds and Distances"
+    },
+    {
+      "id": 4,
+      "category":"Manouvers"
+    },
+    {
+      "id": 5,
+      "category":"Priority at Level-Crossings and Tunnels"
+    },
+    {
+      "id": 6,
+      "category":"Transporting people and cargo"
+    },
+    {
+      "id": 7,
+      "category":"Lights and indication in the vehicle"
+    },
+    {
+      "id": 8,
+      "category":"Signs"
+    },
+    {
+      "id": 9,
+      "category":"Documentation"
+    },
+    {
+      "id": 10,
+      "category":"The Driver"
+    },
+    {
+      "id": 11,
+      "category":"The Road Users"
+    },
+    {
+      "id": 12,
+      "category":"Vehicle Controls"
+    },
+    {
+      "id": 13,
+      "category":"Visibility and Comfort"
+    },
+    {
+      "id": 14,
+      "category": "Safe driving"
+    },
+    {
+      "id": 15,
+      "category": "The Vehicles Safety Devices"
+    },
+    {
+      "id": 16,
+      "category": "Journeys, Efficient and Preventive Driving"
+    },
+    {
+      "id": 17,
+      "category": "Driving Accidents"
+    },
+    {
+      "id": 18,
+      "category": "Vehicle Maintainace"
+    }
+  ]
+}
