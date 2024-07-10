@@ -24,7 +24,9 @@ $topics = ["Definitions", "Use of the road", "Speeds and distances", "Manouvers"
         <ul class="topics">
 <?php
 foreach ($topics as $topic) {
-    echo '<li class="topic_item"><a href="views/' . $topic . '.html">' . $topic . '</a></li>';
+	$topiclow = strtolower($topic); 
+	$topicLink = str_replace(" ", "-", $topiclow);
+    echo '<li class="topic_item"><a href="views/' . $topicLink . '.html">' . $topic . '</a></li>';
 }
 
 ?>
