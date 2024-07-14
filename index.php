@@ -10,11 +10,11 @@ $topics = json_decode(file_get_contents("json/topics.json"), true)['topics'];
     <link rel="stylesheet" href="css/style.css" media="all">
   </head>
   <body>
-    <header class="header">
-      <h1>Permiso B - Spanish Driving Licence</h1>
+    <header>
+      <h1>Permiso B - Spanish Driving Licence.</h1>
+	  <h3>Theory:</h3>	 
 <div class="navigation">
    <button class="home"><a href="index.php">Home</a></button>
-   <button class="definitions"><a href="views/definitions.html">Definitions</a></button>
 </div>
     </header>
     <main>

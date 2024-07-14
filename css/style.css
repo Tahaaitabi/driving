@@ -29,17 +29,26 @@ body {
   padding-inline: 1rem; 
 }
 
+/* Header */
+
+header {
+	min-width: 100%;
+	border: 2px solid var(--lg);
+	border-radius: .5rem;
+}
+
 /* Main */
 
 main {
 	border: 2px solid var(--lg);
 	border-radius: .5rem;
+	margin-top: 1rem;
 }
 
 /* Categories Section */
 
 
 .categories {
-	padding-inline: 1.5rem;
+	padding: .5rem;
 	
 }
