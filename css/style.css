@@ -1,3 +1,7 @@
+:root {
+	/* Colors */
+	--lg: #d1d1e0;
+}
 *,
 *::after,
 *::before {
@@ -5,7 +9,46 @@
   margin: 0;
   box-sizing: border-box;
 }
+a, li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* Linsk */
+
+a, 
+a:active {
+	color: blue;
+}
+
+a:visited {
+		color: darkblue;
+	}
 
 body {
-   
+  padding-inline: 1rem; 
+}
+
+/* Header */
+
+header {
+	min-width: 100%;
+	border: 2px solid var(--lg);
+	border-radius: .5rem;
+}
+
+/* Main */
+
+main {
+	border: 2px solid var(--lg);
+	border-radius: .5rem;
+	margin-top: 1rem;
+}
+
+/* Categories Section */
+
+
+.categories {
+	padding: .5rem;
+	
 }
