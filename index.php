@@ -1,5 +1,6 @@
 <?php 
 $topics = ["Definitions", "Use of the road", "Speeds and distances", "Manouvers", "Priority at level crossigns and tunnels", "Transporting people and cargo", "Lights and indication in the vehicle", "Signs". "Documentation", "The Driver", "The road users", "Vehicle controls, visibility and comfort", "Safe driving", "The vehicles safety devices", "Journeys, efficient and preventive driving", "Driving accidents", "Vehicle maintainace"];
+$temas = file_get_contents('json/topics.json');
 ?>
 <!DOCTYPE html>
 <html lang="en">

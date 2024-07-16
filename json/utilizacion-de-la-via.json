@@ -1,8 +1,10 @@
 {
-  "udlv": [
+  "Partes fundamentales de la via": [
     {
-      "id": 1,
-      "": ""
+      "Plataforma": "Es la zona de la via dedicada al uso de vehiculos. \\n Esta formada por la calzada y los arcenes. \\n Una via puede tener una o varias plataformas."
+    },
+    {
+      "Calzada": "Es la parte de la via dedicada a la circulacion de vehiculos. \\n Una via puede tener una o mas calzadas."
     }
   ]
 }
