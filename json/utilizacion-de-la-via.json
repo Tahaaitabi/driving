@@ -1,10 +1,62 @@
 {
   "Partes fundamentales de la via": [
     {
-      "Plataforma": "Es la zona de la via dedicada al uso de vehiculos. \\n Esta formada por la calzada y los arcenes. \\n Una via puede tener una o varias plataformas."
+      "name": "Plataforma",
+      "Plataforma": "Es la zona de la via dedicada al uso de vehiculos.\\n Esta formada por la calzada y los arcenes.\\n Una via puede tener una o varias plataformas."
     },
     {
-      "Calzada": "Es la parte de la via dedicada a la circulacion de vehiculos. \\n Una via puede tener una o mas calzadas."
+      "name": "Calzada",
+      "Calzada": "Es la parte de la via dedicada a la circulacion de vehiculos.\\n Una via puede tener una o mas calzadas.",
+      "Calzada estrecha": "Es la calzada que tiene 6.5 metros o menos de ancho."
+    },
+    {
+      "name": "Carril",
+      "Carril": "Es cada una de las bandas longitudinales en que se puede estar subdividida la calzada. Su anchura debe ser suficiente para permitir la circulacion de una fila de automoviles que no sean motocicletas. \\n Los carriles pueden estar delimitidos o no por marcas viales longitudinales.\\n Toda calzada tiene al menos un carril, aunque dependiendo de su anchura, puede tener mas de uno.",
+      "Carril estrecho": "Es el que tiene una anchura inferior a 3 metros."
+    },
+    {
+      "name": "Arcen",
+      "Arcen": "Es una franja longitudinal de terreno contigua a la calzada, que esta afirmada.\\n No es necesario que el arcen este pavimentado y hay vias en las que ni siquiera existe.\\n Salvo en circumstancias especiales, el arcen no esta disponible al uso de los automoviles."
     }
+  ],
+  "Otras zonas de la via": [
+    {
+      "name": "Recta",
+      "Recta": "Es el tramo de via que no cambia de direccion."
+    },
+    {
+      "name": "Curva",
+      "Curva": "Es el tramo de via en que este cambia de trayectoria o direccion.",
+      "Curva de visibilidad reducida": "Es la curva que no permite ver el ancho total de la calzada en una longitud suficiente."
+    },
+    {
+      "name": "Rasante",
+      "Rasante": "Es la inclinacion sobre la horizontal de un tramo de via"
+    },
+    {
+      "name": "Cambio de Rasante",
+      "Cambio de Rasante": "Es el lugar en que se encuentran dos tramos de via de distinta inclinacion.",
+      "Cambio de Rasante de visibilidad reducida": "Es el que impide ver los vehiculos que circulan en uno u otro sentido por la rasante contraria en una distancia suficiente."
+    },
+    {
+      "name": "Mediana",
+      "Mediana": "Es la franja longitudinal de terreno no destinada a la circulacion situada entre dos plataformas separadas."
+    },
+    {
+      "name": "Apartadero",
+      "Apartadero": "Es el ensanchamiento de la calzada destinado a la detencion de vehiculos, sin interceptar la circulacion por la misma."
+    },
+    {
+      "name": "Zona de frenado de emergencia",
+      "Zona de frenado de emergencia": "Es una zona de escape de la calzada dispuesta para ue un vehiculo pueda ser detenido en caso de fallo de sus sistemas de frenado."
+    },
+    {
+      "name": "Interseccion",
+      "Interseccion": "Es el nudo de la red viara en el que todos los cruzes de trayectorias posibles de los vehiculos que lo utilizan se realizan a nivel."
+    },
+    {
+      "name": "Glorieta",
+      "Glorieta": "Se entiende por glorieta un tipo especial de interseccion caracterizado por que los tramos que ekl el confluyen se comunican a traves de un anillo en el que se estableze una circulacion rotatoria alrededor de una isleta central.\\n No son glorietas propiamente dichas las denominadas glorietas partidas en las que dos tramos, generalmente opuestos, se conectan directamente a traves de la dos tramos, generalmente opuestos, se conenctan directamente a traves de una isleta central, por lo que el trafico pasa de uno a otro y no la rodea."
+    },
   ]
 }
