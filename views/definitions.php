@@ -30,10 +30,10 @@ $definicion = $def['def'];
 $word = $def['word'];
 $definition = $def['def-en'];
 
-echo '<h3>' . $def['palabra'] . '</h3>';
-echo '<h3>' . $word . '</h3>';
-echo '<p>' . $def['def'] . '</p>';
-echo '<p>' . $definition . '</p>';
+echo '<h3 class="palabra">' . $def['palabra'] . '</h3>';
+echo '<h3 class="word">' . $word . '</h3>';
+echo '<p class="def">' . $def['def'] . '</p>';
+echo '<p class="def-en">' . $definition . '</p>';
 
 }
 ?>
