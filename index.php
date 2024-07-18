@@ -10,10 +10,10 @@ $topics = json_decode(file_get_contents("json/topics.json"), true)['topics'];
     <link rel="stylesheet" href="css/style.css" media="all">
   </head>
   <body>
+    <p class="what">English translation of all the key concepts that you'll need in order to pass your spanish category B licence.</p>
     <header>
       <div class="title">
         <h1>B Licence</h1>
-        <p>English translation of all the key concepts that you'll need in order to pass your spanish category B licence.</p>
       </div>
       <nav class="nav">
         <button class="home"><a href="index.php">
@@ -32,8 +32,8 @@ $topics = json_decode(file_get_contents("json/topics.json"), true)['topics'];
             $topicName = $topic['category'];
             $topiclow = strtolower($topicName); 
             $topicLink = str_replace(" ", "-", $topiclow);
-                                             echo '<li class="topic_item"><a href="views/' . $topicLink . '.html">' . htmlspecialchars($topicName) . '</a></li>';
-                                                              }
+                                              echo '<li class="topic_item"><a href="views/' . $topicLink . '.php">' . htmlspecialchars($topicName) . '</a></li>';
+                                                                          }
 
 ?>
         </ul>

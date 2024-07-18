@@ -1,1 +1,23 @@
 @import url("../css/style.css");
+:root {
+  /* colors */
+  --def-clr: ;
+  --tran-clr: ;
+}
+
+.definition {
+  padding: .5rem;
+
+  h3 {
+    color: var(--txt-md);
+  }
+
+}
+
+.translation {
+  padding: .5rem;
+
+  h3 {
+    color: var(--txt-md);
+  }
+}

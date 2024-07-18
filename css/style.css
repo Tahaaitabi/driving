@@ -25,11 +25,23 @@ a:active {
 }
 
 a:visited {
-		color: darkblue;
+		color: brown;
 	}
 
 body {
   padding-inline: 1rem; 
+}
+
+/* Banner at the top of the site */
+.what {
+  min-width: 100%;
+  margin-bottom: .1rem;
+  border-radius: .2rem;
+  padding-inline: 1rem;
+  color: white; 
+  font-size: 12px;
+  background-color: var(--txt-md);
+  text-align: center;
 }
 
 /* Header */
@@ -41,25 +53,35 @@ header {
   padding: .5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
   color: var(--txt-lg);
 }
 
-header p {
-  color: var(--darkgray);
-}
 
 /* Navigation */
 
 .nav .home {
-  min-width: 1.2rem;
+  min-width: 1rem;
   background: none;
-  border: none;
-  box-shadow: 2px 3px var(--txt-lg);
   border-radius: .150rem;
-  margin: .2rem;
+}
+
+
+.nav .home:hover,
+.nav .home:active,
+.nav .home:focus {
+  min-width: 1rem;
+  background: none;
+  box-shadow: 1px 1px var(--txt-lg);
+  border-radius: .150rem;
+  transition: .3s ease-in-out;
+}
+
+.home svg {
+  min-width: 1rem;
 }
 
 /* Main */
