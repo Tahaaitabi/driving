@@ -1,6 +1,9 @@
 :root {
 	/* Colors */
-	--lg: #d1d1e0;
+	--lightgray: #d1d1e0;
+  --darkgray: #404141;
+  --txt-lg: #6094BE;
+  --txt-md: #396C9F;
 }
 *,
 *::after,
@@ -33,14 +36,36 @@ body {
 
 header {
 	min-width: 100%;
-	border: 2px solid var(--lg);
+	border: 2px solid var(--lightgray);
 	border-radius: .5rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: var(--txt-lg);
+}
+
+header p {
+  color: var(--darkgray);
+}
+
+/* Navigation */
+
+.nav .home {
+  min-width: 1.2rem;
+  background: none;
+  border: none;
+  box-shadow: 2px 3px var(--txt-lg);
+  border-radius: .150rem;
+  margin: .2rem;
 }
 
 /* Main */
 
 main {
-	border: 2px solid var(--lg);
+	border: 2px solid var(--lightgray);
 	border-radius: .5rem;
 	margin-top: 1rem;
 }
@@ -52,3 +77,8 @@ main {
 	padding: .5rem;
 	
 }
+
+.categories-title {
+  color: var(--txt-md);
+}
+
