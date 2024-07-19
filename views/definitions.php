@@ -30,10 +30,21 @@ $definicion = $def['def'];
 $word = $def['word'];
 $definition = $def['def-en'];
 
-echo '<h3 class="palabra">' . $def['palabra'] . '</h3>';
-echo '<h3 class="word">' . $word . '</h3>';
+echo '<div class="wrapper">';
+echo '<div class="spanish">';
+echo '<div class="title-language">';
+echo '<h3 class="palabra">' . $def['palabra'] . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;
+echo '</div>';
 echo '<p class="def">' . $def['def'] . '</p>';
+echo '</div>';
+echo '<div class="english">';
+echo '<div class="title-language">';
+echo '<h3 class="word">' . $word . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/gb.svg">';
+echo '</div>';
 echo '<p class="def-en">' . $definition . '</p>';
+echo '<br>';
+echo '</div>';
+echo '</div>';
 
 }
 ?>

@@ -4,22 +4,22 @@
       "id": 1,
       "palabra": "conductor",
       "word": "driver",
-      "def": "La persona que maneja la direccion o va al mando de un vehiculo, con las excepciones que se detallan en la definicion de peaton.\\n La persona a cuyo cargo esta un animal o animales.\\n En los vehiculos que ciirculen en funcion de aprendizaje de la conducion, el conductor es la persona que esta a cargo de los mandos adicionales.",
-      "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\\n The person in charge of an animal or animals.\\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls."
+      "def": "La persona que maneja la direccion o va al mando de un vehiculo, con las excepciones que se detallan en la definicion de peaton.\n La persona a cuyo cargo esta un animal o animales.\n En los vehiculos que ciirculen en funcion de aprendizaje de la conducion, el conductor es la persona que esta a cargo de los mandos adicionales.",
+      "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\n The person in charge of an animal or animals.\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls."
     },
     { 
       "id": 2,
       "palabra": "peaton",
       "word": "pedestrian",
-      "def": "Es la persona que, sin ser conductor, transita a pie por las vias o terrenos a los que hace referencia la definicion de vehiculo.\\n Quienes empujan o arrastran un coche de nino o de una persona con discapacidad o cualquier otro vehiculo sin motor de pequenas dimensiones.\\n Los que conducen a pie un ciclo o ciclomotor de dos ruedas.\\n Las personas con discapacidad que circulan al paso en una silla de ruedads, con o sin motor.",
-      "def-en": "A person who, without being a driver, travels on foot on the roads or terrain referred to in the definition of a vehicle.\\n Those who push or pull a stroller of a child or a person with a disability or any other small non-motorized vehicle.\\n Those who push a two-wheeled cycle or moped on foot.\\n People with disabilities travelling in a wheelchair, with or without an engine."
+      "def": "Es la persona que, sin ser conductor, transita a pie por las vias o terrenos a los que hace referencia la definicion de vehiculo.\n Quienes empujan o arrastran un coche de nino o de una persona con discapacidad o cualquier otro vehiculo sin motor de pequenas dimensiones.\n Los que conducen a pie un ciclo o ciclomotor de dos ruedas.\n Las personas con discapacidad que circulan al paso en una silla de ruedads, con o sin motor.",
+      "def-en": "A person who, without being a driver, travels on foot on the roads or terrain referred to in the definition of a vehicle.\n Those who push or pull a stroller of a child or a person with a disability or any other small non-motorized vehicle.\n Those who push a two-wheeled cycle or moped on foot.\n People with disabilities travelling in a wheelchair, with or without an engine."
     },
     {
       "id": 3,
       "palabra": "titular del vehiculo",
       "word": "owner of the vehicle",
-      "def": "La persona a cuyo nombre figura inscrito en vehiculo en el registro oficial correspodiente. El titular de un vehiculo esta obligado a:\\n 1. Facilitar a la Administracion la indentificacion del conductor del vehiculo en el momento de ser cometida una infraccion.\\n 2. Impedir que el vehiculo sea conducido por quienes nunca hubieren obtenido el permiso o licencia de conduccion correspondiente. ",
-      "def-en": "The person in whose name the vehicle is registered in the corresponding official register. The owner of a vehicle is obliged to:\\n 1. Provide the Administration with the identification of the driver of the vehicle at the time of an offence being committed.\\n 2. Prevent the vehicle from being driven by those who have never obtained the corresponding driver's permit or license. "
+      "def": "La persona a cuyo nombre figura inscrito en vehiculo en el registro oficial correspodiente. El titular de un vehiculo esta obligado a:\n 1. Facilitar a la Administracion la indentificacion del conductor del vehiculo en el momento de ser cometida una infraccion.\n 2. Impedir que el vehiculo sea conducido por quienes nunca hubieren obtenido el permiso o licencia de conduccion correspondiente. ",
+      "def-en": "The person in whose name the vehicle is registered in the corresponding official register. The owner of a vehicle is obliged to:\n 1. Provide the Administration with the identification of the driver of the vehicle at the time of an offence being committed.\n 2. Prevent the vehicle from being driven by those who have never obtained the corresponding driver's permit or license. "
     },
     {
       "id": 4,

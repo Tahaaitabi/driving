@@ -1,23 +1,53 @@
 @import url("../css/style.css");
 :root {
   /* colors */
-  --def-clr: ;
-  --tran-clr: ;
+  --wrapper-clr: #4c8393;
 }
+
+/*
+The component which will hold our definitions is made up of the following classes:
+1. .definition = A div which holds everything.
+2. .spanish/.english = Two divs in which the spanish and english translations live.
+3. .title-language - A div which holds: 
+  - .palabra/.word 
+  - .flag = an img element as the lang icon.
+4. .def/.def-en = which will hold the translations of definitions in each language.
+ */
 
 .definition {
-  padding: .5rem;
 
-  h3 {
-    color: var(--txt-md);
+  .wrapper {
+    margin: .5rem;
+    border: 2px solid var(--wrapper-clr);
+    border-radius: .4rem;
+    display: flex;
+    gap: .5rem;
   }
 
-}
+  .spanish,
+  .english {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex: 1;
 
-.translation {
-  padding: .5rem;
+    .title-language {
+      display: flex;
+      gap: .250rem;
+    }
+    .flag {
+      display: block;
+      max-width: 1rem;
+    }
+  }
 
-  h3 {
+
+  .palabra,
+  .word {
     color: var(--txt-md);
+    text-transform: uppercase;
   }
 }
+
+
