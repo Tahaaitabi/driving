@@ -26,16 +26,16 @@ $definitions = json_decode(file_get_contents("../json/definitions.json"), true)[
       <div class="definition">
 <?php foreach ($definitions as $def) {
 $palabra = $def['palabra'];
-$definicion = $def['def'];
+$definicion = nl2br($def['def']);
 $word = $def['word'];
-$definition = $def['def-en'];
+$definition = nl2br($def['def-en']);
 
 echo '<div class="wrapper">';
 echo '<div class="spanish">';
 echo '<div class="title-language">';
-echo '<h3 class="palabra">' . $def['palabra'] . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;
+echo '<h3 class="palabra">' . $palabra . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;
 echo '</div>';
-echo '<p class="def">' . $def['def'] . '</p>';
+echo '<p class="def">' . $definicion . '</p>';
 echo '</div>';
 echo '<div class="english">';
 echo '<div class="title-language">';
