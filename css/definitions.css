@@ -55,6 +55,10 @@ The component which will hold our definitions is made up of the following classe
       padding-left: 1rem;
       font-weight: bold;
     }
+    .dash {
+      padding-left: 2rem;
+      font-weight: bold;
+    }
   }
 }
 

@@ -5,15 +5,21 @@ function mdBold($data){
     $result = preg_replace($pattern, '<b>$2</b>', $data);
     return $result;
 }
-function mdSpan($data){
+function mdSpanNumber($data){
     $pattern = "(([0-9]\.)([a-z0-9A-ZáéíóúÁÉÍÓÚ,²-³ \(\)\-\'\:\/\.]+))";
     $result = preg_replace($pattern, '<span class="number">$1</span><span class="content">$2</span>', $data);
     return $result;
 }
+function mdSpanDash($data){
+    $pattern = "((-)( [a-zA-Z0-9áéíóúÁÉÚÍÓ, \-\/\:²³\'\(\)\.]+))";
+    $result = preg_replace($pattern, '<span class="dash">$1</span><span class="content">$2</span>', $data);
+    return $result;
+}
 function mdClean($s1) {
     $addBold = mdBold($s1);
-    $addSpan = mdSpan($addBold);
-    $result = $addSpan;
+    $addSpanDash = mdSpanDash($addBold);
+    $addSpanNumber = mdSpanNumber($addSpanDash);
+    $result = $addSpanNumber;
     return $result;
 }
 ?>
