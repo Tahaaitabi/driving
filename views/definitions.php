@@ -1,5 +1,10 @@
 <?php
 $definitions = json_decode(file_get_contents("../json/definitions.json"), true)['definitions'];
+function mdBold($data){
+    $pattern = '((\*{2})(.+)(\*{2}))';
+    $result = preg_replace($pattern, '<b>$2</b>', $data);
+    return $result;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,13 +40,13 @@ echo '<div class="spanish">';
 echo '<div class="title-language">';
 echo '<h3 class="palabra">' . $palabra . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;
 echo '</div>';
-echo '<p class="def">' . $definicion . '</p>';
+echo '<p class="def">' . mdBold($definicion) . '</p>';
 echo '</div>';
 echo '<div class="english">';
 echo '<div class="title-language">';
 echo '<h3 class="word">' . $word . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/gb.svg">';
 echo '</div>';
-echo '<p class="def-en">' . $definition . '</p>';
+echo '<p class="def-en">' . mdBold($definition) . '</p>';
 echo '<br>';
 echo '</div>';
 echo '</div>';
