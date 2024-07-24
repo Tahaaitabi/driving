@@ -5,6 +5,17 @@ function mdBold($data){
     $result = preg_replace($pattern, '<b>$2</b>', $data);
     return $result;
 }
+function mdSpan($data){
+    $pattern = "(([0-9]\.)([a-z0-9A-ZáéíóúÁÉÍÓÚ,²-³ \(\)\-\'\:\/\.]+))";
+    $result = preg_replace($pattern, '<span class="number">$1</span><span class="content">$2</span>', $data);
+    return $result;
+}
+function mdClean($s1) {
+    $addBold = mdBold($s1);
+    $addSpan = mdSpan($addBold);
+    $result = $addSpan;
+    return $result;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +39,7 @@ function mdBold($data){
     </header>
 
     <main>
-      <div class="definition">
+      <div class="defs">
 <?php foreach ($definitions as $def) {
 $palabra = $def['palabra'];
 $definicion = nl2br($def['def']);
@@ -40,13 +51,13 @@ echo '<div class="spanish">';
 echo '<div class="title-language">';
 echo '<h3 class="palabra">' . $palabra . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;
 echo '</div>';
-echo '<p class="def">' . mdBold($definicion) . '</p>';
+echo '<p class="def">' . mdClean($definicion) . '</p>';
 echo '</div>';
 echo '<div class="english">';
 echo '<div class="title-language">';
 echo '<h3 class="word">' . $word . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/gb.svg">';
 echo '</div>';
-echo '<p class="def-en">' . mdBold($definition) . '</p>';
+echo '<p class="def-en">' . mdClean($definition) . '</p>';
 echo '<br>';
 echo '</div>';
 echo '</div>';

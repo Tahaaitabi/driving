@@ -114,64 +114,67 @@
     {
       "id": 18,
       "palabra": "Vehículo para personas de movilidad reducida",
-      "word": "",
+      "word": "mobility scooter",
       "def": "Vehículo que reúne las siguientes características:\n\n 1. Tener una tara no superior a 350 kg.\n\n 2. No poder alcanzar en llano, por construcción, una velocidad superior a 45 km/h.\n\n 3. Haber sido proyectado y construido especialmente (y no meramente adaptado) para el uso de personas con alguna disfunción o incapacidad física.\n\n En cuanto al resto de sus características técnicas se les equiparará a los ciclomotores de tres ruedas.",
-      "def-en": ""
+      "def-en": "Vehicle that meets the following characteristics:\n\n 1. Having a curb weight not exceeding 350 kg.\n\n 2. Not being able to reach a speed of more than 45 km/h on flat terrain by design.\n\n 3. Being specially designed and built for use by individuals with some physical disability or impairment.\n\n Equivalent to three-wheeled motorcycles."
     },
     {
       "id": 19,
       "palabra": "Vehículo de movilidad personal",
-      "word": "",
+      "word": "Personal mobility vehicle (usually e-bikes & e-scooters)",
       "def": "Vehículo de una o más ruedas dotado de una única plaza y propulsado exclusivamente por motores eléctricos que pueden proporcionar al vehículo una velocidad máxima entre 6 y 25 km/h.\n\n Solo puede estar equipado con un asiento o sillín si está dotado de sistema de autoequilibrado.\n\n Se exluyen de esta definición los vehículos sin sistema de autoequilibrado y con sillín, los vehículos concebidos para la competición, los vehículos para personas con movilidad reducida y los vehículos con una tensión de trabajo mayor a 100 VCC o 240 VAC, así como aquellos incluidos dentro del ámbito del Reglamento (UE) n.° 168/2013: patinetes con asiento, ciclos de motor, etc.",
-      "def-en": ""
+      "def-en": "Vehicle with one or more wheels equipped with a single seat and exclusively propelled by electric motors that can provide the vehicle a maximum speed between 6 and 25 km/h.\n\n It can only be equipped with a seat or saddle if it is fitted with an auto-balancing system (e.g.: a stand).\n\n Excluded from this definition are vehicles without an auto-balancing system and with a seat, competition-conceived vehicles, vehicles for persons with reduced mobility, vehicles with a working tension higher than 100 VCC or 240 VAC, as well as those included within the scope of Regulation (EU) No. 168/2013: scooters with seats, motor cycles, etc.\n\n"
+
     }, 
     {
       "id": 20,
       "palabra": "motocicleta",
       "word": "motorcycle",
       "def": "Tienen la consideración de motocicletas los automóviles que se definen en los dos epígrafes siguientes:\n\n **Motocicletas de dos ruedas**\n\n Vehículo de dos ruedas sin sidecar que posee al menos una de estas dos características:\n\n - Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n - Alcanzar, por la construcción, una velocidad máxima superior a 45 km/h.\n\n **Motocicleta con sidecar**\n\n Vehículo de tres ruedas asimétricas respecto a su eje medio longitudinal, que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
-      "def-en": ""
+"def-en": "Motorcycles are considered vehicles that meet the definitions in the two following sections:\n\n **Two-wheeled motorcycles**\n\n A vehicle with two wheels without a sidecar that has at least one of the following characteristics:\n\n - Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n - Reaching, by design, a maximum speed exceeding 45 km/h.\n\n **Motorcycle with sidecar**\n\n A vehicle with three wheels asymmetrically arranged relative to its median longitudinal axis that has at least one of the following characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
+
+
     },
     {
       "id": 21,
       "palabra": "Vehículo de tres ruedas",
-      "word": "",
+      "word": "Three-wheeled vehicle",
       "def": "Automóvil de tres ruedas simétricas que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
-      "def-en": ""
+      "def-en": "Three-wheeled automobile with symmetrical wheels that has at least one of the following two characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
     },
     {
       "id": 22,
       "palabra": "cuatriciclo (o cuadricilo) pesado",
-      "word": "",
+      "word": "heavy four-wheeler (or quad)",
       "def": "Automóvil de cuatro ruedas que reúne, entre otras, las siguientes características:\n\n 1. Tener una masa en orden de marcha inferior o igual a 450 kg (600 kg si se trata de vehiculos destinados al transporte de mercancías).\n\n 2. Poseer un motor cuya potencia nominal o neta continua máxima sea inferior o igual a 15 kW.",
-      "def-en": ""
+      "def-en": "Four-wheeled automobile that meets, among others, the following characteristics:\n\n 1. Having a curb weight of 450 kg or less (600 kg for vehicles intended for goods transport).\n\n 2. Having a motor with a nominal or continuous maximum power of 15 kW or less."
     },
     {
       "id": 23,
       "palabra": "turismo",
-      "word": "",
+      "word": "car",
       "def": "Automóvil destinado al transporte de personas que tiene:\n\n 1. Cuatro ruedas, al menos.\n\n 2. Ocho plazas como máximo, además del asiento del conductor.",
-      "def-en": ""
+      "def-en": "Automobile intended for transporting people that has:\n\n 1. At least four wheels.\n\n 2. A maximum of eight seats, plus the driver's seat."
     },
     {
       "id": 24,
       "palabra": "derivado de turismo",
-      "word": "",
+      "word": "LVC (light commercial vehicle)",
       "def": "Automóvil destinado a servicios o a transporte exclusivo de mercancías, derivado de un turismo del cual conserva la carrocería y dispone únicamente de una fila de asientos.",
-      "def-en": ""
+      "def-en": "Automobile intended for services or exclusive goods transport, derived from a car-derived van that retains its original bodywork and has only one row of seats."
     },
     {
       "id": 25,
       "palabra": "pick-up",
-      "word": "",
-      "def": "Vehículo cuya masa máxima no es superior a 3.500 kg en la que las plazas de asiento y la zona de carga no están situadas en un compartimento único.",
-      "def-en": ""
+      "word": "pick-up",
+      "def": "Vehículo cuya masa máxima no es superior a 3,500 kg en la que las plazas de asiento y la zona de carga no están situadas en un compartimento único.",
+      "def-en": "Vehicle whose maximum weight is not greater than 3,500 kg, in which the seating areas and load area are not situated in a single compartment."
     },
     {
       "id": 26,
       "palabra": "vehículo mixto adaptable",
-      "word": "",
-      "def": "Automóvil especialmente dispuesto para el transporte, simultáneo o no, de mercancias y personas hasta un máximo de 9, incluido el conductor, y en el que se puede sustituirev entualmente la carga, parcial o totalmente, por personas mediante la adición de asientos.",
+      "word": "car-derived van",
+      "def": "Automóvil especialmente dispuesto para el transporte, simultáneo o no, de mercancias y personas hasta un máximo de 9, incluido el conductor, y en el que se puede sustituir eventualmente la carga, parcial o totalmente, por personas mediante la adición de asientos.",
       "def-en": ""
     },
     {

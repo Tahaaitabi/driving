@@ -9,12 +9,12 @@ The component which will hold our definitions is made up of the following classe
 1. .definition = A div which holds everything.
 2. .spanish/.english = Two divs in which the spanish and english translations live.
 3. .title-language - A div which holds: 
-  - .palabra/.word 
-  - .flag = an img element as the lang icon.
+- .palabra/.word 
+- .flag = an img element as the lang icon.
 4. .def/.def-en = which will hold the translations of definitions in each language.
  */
 
-.definition {
+.defs {
 
   .wrapper {
     margin: .5rem;
@@ -47,6 +47,14 @@ The component which will hold our definitions is made up of the following classe
   .word {
     color: var(--txt-md);
     text-transform: uppercase;
+  }
+
+  .def,
+  .def-en {
+    .number {
+      padding-left: 1rem;
+      font-weight: bold;
+    }
   }
 }
 
