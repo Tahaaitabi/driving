@@ -1,5 +1,6 @@
 <?php
 $definitions = json_decode(file_get_contents("../json/definitions.json"), true)['definitions'];
+
 function mdBold($data){
     $pattern = '((\*{2})(.+)(\*{2}))';
     $result = preg_replace($pattern, '<b>$2</b>', $data);

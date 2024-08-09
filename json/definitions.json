@@ -1,349 +1,328 @@
 {
   "definitions": [
-    "definiciones relativas a las personas": [
-      { 
-        "id": 1,
-        "palabra": "conductor",
-        "word": "driver",
-        "def": "La persona que maneja la dirección o va al mando de un vehículo, con las excepciones que se detallan en la definición de peatón.\n\n La persona a cuyo cargo está un animal o animales.\n\n En los vehículos que circulen en función de aprendizaje de la conducción, el conductor es la persona que está a cargo de los mandos adicionales.",
-        "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\n\n The person in charge of an animal or animals.\n\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls."
-      },
-      { 
-        "id": 2,
-        "palabra": "peatón",
-        "word": "pedestrian",
-        "def": "Es la persona que, sin ser conductor, transita a pie por las vías o terrenos a los que hace referencia la definición de vehiculo.\n\n Quienes empujan o arrastran un coche de niño o de una persona con discapacidad o cualquier otro vehiculo sin motor de pequeñas dimensiones.\n\n Los que conducen a pie un ciclo o ciclomotor de dos ruedas.\n\n Las personas con discapacidad que circulan al paso en una silla de ruedads, con o sin motor.",
-        "def-en": "A person who, without being a driver, travels on foot on the roads or terrain referred to in the definition of a vehicle.\n\n Those who push or pull a stroller of a child or a person with a disability or any other small non-motorized vehicle.\n\n Those who push a two-wheeled cycle or moped on foot.\n\n People with disabilities travelling in a wheelchair, with or without an engine."
-      },
-      {
-        "id": 3,
-        "palabra": "titular del vehículo",
-        "word": "owner of the vehicle",
-        "def": "La persona a cuyo nombre figura inscrito en vehiculo en el registro oficial correspodiente. El titular de un vehiculo está obligado a:\n\n 1. Facilitar a la Administracion la indentificación del conductor del vehiculo en el momento de ser cometida una infracción.\n\n 2. Impedir que el vehiculo sea conducido por quienes nunca hubieren obtenido el permiso o licencia de conducción correspondiente. ",
-        "def-en": "The person in whose name the vehicle is registered in the corresponding official register. The owner of a vehicle is obliged to:\n\n 1. Provide the Administration with the identification of the driver of the vehicle at the time of an offence being committed.\n\n 2. Prevent the vehicle from being driven by those who have never obtained the corresponding driver's permit or license. "
-      },
-      {
-        "id": 4,
-        "palabra": "conductor habitual",
-        "word": "habitual driver",
-        "def": "La persona que contando con el permiso o licencia de conducción necessario, ha sido designada por el titular de un vehículo, previo su consentimiento, por ser aquella que de manera usual o con mayor frecuencia conduce dicho vehículo. En este caso, las obligaciones del titular expuestas en el punto anterior se trasladan al conductor habitual.",
-        "def-en": "The person who, having the necessary driving permit or license, has been designated by the owner of a vehicle, with his/her consent, as being the one who habitually or most frequently drives said vehicle. In this case, the obligations of the holder set out in the previous point are transferred to the habitual driver."
-      }
-    ],
-    "definiciones relativas a los vehículos": [
-      {
-        "id": 5,
-        "palabra": "vehículo",
-        "word": "vehicle",
-        "def": "Es todo aparato apto para circular:\n\n 1. Por las vías y terrenos públicos aptos para circulación, tanto urbanos como interurbanos.\n\n 2. Por las vías y terrenos que, sin ser aptos para la circulación, sean de uso común.\n\n 3. Por las vías y terrenos privados que sean utilizados por una colectividad indeterminada de usuarios.",
-        "def-en": "It is any apparatus suitable for circulation:\n\n 1. On public roads and land suitable for circulation, both urban and interurban.\n\n 2. On roads and land that, without being suitable for circulation, are for common use.\n\n 3. By private roads and land that is used by an indeterminate group of users."
-      }, {
+    { 
+      "id": 1,
+      "palabra": "conductor",
+      "word": "driver",
+      "def": "La persona que maneja la dirección o va al mando de un vehículo, con las excepciones que se detallan en la definición de peatón.\n\n La persona a cuyo cargo está un animal o animales.\n\n En los vehículos que circulen en función de aprendizaje de la conducción, el conductor es la persona que está a cargo de los mandos adicionales.",
+      "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\n\n The person in charge of an animal or animals.\n\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls."
+    },
+    { 
+      "id": 2,
+      "palabra": "peatón",
+      "word": "pedestrian",
+      "def": "Es la persona que, sin ser conductor, transita a pie por las vías o terrenos a los que hace referencia la definición de vehiculo.\n\n Quienes empujan o arrastran un coche de niño o de una persona con discapacidad o cualquier otro vehiculo sin motor de pequeñas dimensiones.\n\n Los que conducen a pie un ciclo o ciclomotor de dos ruedas.\n\n Las personas con discapacidad que circulan al paso en una silla de ruedads, con o sin motor.",
+      "def-en": "A person who, without being a driver, travels on foot on the roads or terrain referred to in the definition of a vehicle.\n\n Those who push or pull a stroller of a child or a person with a disability or any other small non-motorized vehicle.\n\n Those who push a two-wheeled cycle or moped on foot.\n\n People with disabilities travelling in a wheelchair, with or without an engine."
+    },
+    {
+      "id": 3,
+      "palabra": "titular del vehículo",
+      "word": "owner of the vehicle",
+      "def": "La persona a cuyo nombre figura inscrito en vehiculo en el registro oficial correspodiente. El titular de un vehiculo está obligado a:\n\n 1. Facilitar a la Administracion la indentificación del conductor del vehiculo en el momento de ser cometida una infracción.\n\n 2. Impedir que el vehiculo sea conducido por quienes nunca hubieren obtenido el permiso o licencia de conducción correspondiente. ",
+      "def-en": "The person in whose name the vehicle is registered in the corresponding official register. The owner of a vehicle is obliged to:\n\n 1. Provide the Administration with the identification of the driver of the vehicle at the time of an offence being committed.\n\n 2. Prevent the vehicle from being driven by those who have never obtained the corresponding driver's permit or license. "
+    },
+    {
+      "id": 4,
+      "palabra": "conductor habitual",
+      "word": "habitual driver",
+      "def": "La persona que contando con el permiso o licencia de conducción necessario, ha sido designada por el titular de un vehículo, previo su consentimiento, por ser aquella que de manera usual o con mayor frecuencia conduce dicho vehículo. En este caso, las obligaciones del titular expuestas en el punto anterior se trasladan al conductor habitual.",
+      "def-en": "The person who, having the necessary driving permit or license, has been designated by the owner of a vehicle, with his/her consent, as being the one who habitually or most frequently drives said vehicle. In this case, the obligations of the holder set out in the previous point are transferred to the habitual driver."
+    },
+    {
+      "id": 5,
+      "palabra": "vehículo",
+      "word": "vehicle",
+      "def": "Es todo aparato apto para circular:\n\n 1. Por las vías y terrenos públicos aptos para circulación, tanto urbanos como interurbanos.\n\n 2. Por las vías y terrenos que, sin ser aptos para la circulación, sean de uso común.\n\n 3. Por las vías y terrenos privados que sean utilizados por una colectividad indeterminada de usuarios.",
+      "def-en": "It is any apparatus suitable for circulation:\n\n 1. On public roads and land suitable for circulation, both urban and interurban.\n\n 2. On roads and land that, without being suitable for circulation, are for common use.\n\n 3. By private roads and land that is used by an indeterminate group of users."
+    }, 
+    {
       "id": 6,
       "palabra": "vehículo a motor",
       "word": "motorized vehicle",
       "def": "Vehículo provisto de motor para su propulsión.\n\n Se excluyen de esta definición los ciclomotores, los tranvías, los vehículos para personas de mobilidad reducida, las bicicletas de pedales con pedaleo asistido y los vehículos de movilidad personal porque, aunque lleven un motor para propulsarse, se les aplican unas normas especiales de circulación.",
       "def-en": "Vehicle equipped with an engine for propulsion.\n\n Mopeds, trams, vehicles for persons with reduced mobility, pedal bicycles with pedal assistance and personal mobility vehicles are excluded from this definition because, although they have an engine to propel themselves, special traffic rules apply to them."
-      },
-      {
-        "id": 7,
-        "palabra": "automóvil",
-        "word": "automobile",
-        "def": "Vehículo a motor que sirve, normalmente, para el transporte de personas cosas, o ambas a la vez, o para la tracción de otros vehículos con aquel fin. Se excluyen de esta definición los vehículos especiales.",
-        "def-en": "A motorized vehicle that is normally used to transport people, things, or both at the same time, or for towing other vehicles. Specialized vehicles are excluded from this definition."
-      },
-      {
-        "id": 8,
-        "palabra": "vehículo especial",
-        "word": "specialized vehicles",
-        "def": "Vehículo, autopropulsado o remolcado, concebido y construido para realizar obras o servicios determinados y que, por sus características, está exceptuado de cumplir alguna de las condiciones técnicas exigidas en el Reglamento General de Vehículoso sobrepasa permanentemente los límites establecidos en el mismo para masas o dimensiones, así como la maquinaria agrícola y sus remolques.",
-        "def-en": "A vehicle, self-propelled or towed, designed and built to carry out specific works or services which, due to its characteristics, is exempt from complying with any of the technical conditions required in the General Vehicle Regulations or permanently exceeds the limits established therein for masses or dimensions, as well as agricultural machinery and its trailers."
-      },
-      "vehículos sin motor": [
-        {
-          "id": 9,
-          "palabra": "vehículo de tracción animal",
-          "word": "animal-drawn vehicles",
-          "def": "Vehículo arrastrado por animales.",
-          "def-en": "Vehicles pulled by animals."
-        },
-        {
-          "id": 10,
-          "palabra": "ciclos",
-          "word": "cycles",
-          "def": "Vehículo provisto de, al menos, dos ruedas y propulsado exclusiva o principalmente por la energía muscular de la persona o personas que están sobre el vehículo, en particular por medio de pedales.",
-          "def-en": "A vehicle fitted with at least two wheels and propelled exclusively or mainly by the muscular energy of the person or persons on the vehicle, in particular by means of pedals."
-        },
-        {
-          "id": 11,
-          "palabra": "bicicleta",
-          "word": "bicycle",
-          "def": "Ciclo de dos ruedas",
-          "def-en": "Two-wheeled cycle."
-        },
-        {
-          "id": 13,
-          "palabra": "bicicleta de pedales con pedaleo asistido",
-          "word": "pedal assisted bycicle.",
-          "def": "Bicicleta equipada con un motor eléctrico auxiliar, de potencia nominal continua máxima inferior o igual a 250 W, cuya potencia dismuniya progresivamente y que finalmente se interrumpa antes de que la velocidad del vehículo alcance los 25 km/h o si el ciclista deja de pedalear.",
-          "def-en": "A bicycle equipped with an auxiliary electric motor, with a maximum continuous rated power of less than or equal to 250 W, the power of which progressively decreases and is finally interrupted before the speed of the vehicle reaches 25 km/h or if the cyclist stops pedalling."
-        },
-        {
-          "id": 14,
-          "palabra": "remolque",
-          "word": "trailer",
-          "def": "Vehículo no autopropulsado diseñado y concebido para ser remolcado por un vehículo a motor. Son remolques ligeros aquellos cuya masa máxima autorizada no excede de 750 kg (a efectos de esta clasificación no se incluyen los remolques agrícolas).\n\n Son remolques no ligeros aquellos cuya masa máxima autorizada excede 750 kg.",
-          "def-en": "A non-self-propelled vehicle designed and conceived to be towed by a motor vehicle. Light trailers are those whose maximum authorised mass does not exceed 750 kg (agricultural trailers are not included for the purposes of this classification).\n\n Non-light trailers are those whose maximum authorised mass exceeds 750 kg."
-        },
-        { 
-          "id": 15,
-          "palabra": "semirremolque",
-          "word": "semitrailer",
-          "def": "Vehículo no autopropulsado diseñado y concebido para ser acoplado a un automóvil, sobre el que reposará parte del mismo, transferíendole una parte sustancial de su masa. Son semirremolques ligeros aquellos cuya masa máxima autorizada no excede 750 kg (a efectos de esta clasificación no se incluyen los semirremolques agrícolas). Son semirremolques no ligeros quellos cuya masa máxima autorizada excede de 750 kg.",
-          "def-en": "Non-self-propelled vehicle designed and conceived to be coupled to an automobile, on which part of it will rest, transferring a substantial part of its mass to it. Light semi-trailers are those whose maximum authorised mass does not exceed 750 kg (agricultural semi-trailers are not included for the purposes of this classification). Non-light semi-trailers are those whose maximum authorised mass exceeds 750 kg."
-        }
-      ],
-      "vehículos que no se consideran a motor": [
-        { 
-          "id": 16,
-          "palabra": "tranvía",
-          "word": "tram",
-          "def": "Vehículo que marcha por raíles instalados en la vía.",
-          "def-en": "Vehicle that runs on rails installed along the road."
-        },
-        {
-          "id": 17,
-          "palabra": "ciclomotor",
-          "word": "mopeds",
-          "def": "Tienen la consideración de ciclomotores los vehículos que se definen a continuación:\n\n **Ciclomotor de dos ruedas**\n\n Vehículo de dos ruedas que debe reunir simultneamente estas dos características:\n\n 1. Alcanzar, por construcción, una velocidad máxima no superior a 45 km/h.\n\n 2. Estar provisto de un motor:\n\n - De cilindrada inferior o igual a 50 cm³, si es de combustion interna.\n\n - Con una potencia continua nominal máxima inferior o igual a 4 kW, si es électrico.\n\n **Ciclomotor de tres ruedas**\n\n  Vehículo de tres ruedas que debe reunir simultáneamente estas dos características:\n\n 1. Alcanzar. por construcción, una velocidad máxima no superior a 45 km/h.\n\n 2. Estar proisto de un motor:\n\n - De cilindrada inferior o igual a 50 cm³ para los motores de encedido por chispa (positiva).\n\n - Cuya potencia máxima neta sea inferior o igual a 4 kW, para los demás motores de combustión interna.\n\n - Cuya potencia continua nominal máxima sea inferior o igual a 4 kW, para los motores électricos.\n\n **Cuatriciclo (o cuadriciclo) ligero**\n\n Vehículo de cuatro ruedas que reúne, entre otras, las siguientes características:\n\n 1. Alcanzar, por construcción, una velocidad máxima inferior o igual a 45 km/h.\n\n 2. Poseer una masa en orden de marcha inferior o igual a 435 kg.\n\n 3. Estar provisto de un motor de cilindrada inferior o igual a 50 cm³ ara los motores de encendido por chispa o inferor o igual a 500 cm³ para los motores de encendido por compresión.\n\n 4. Estar equipado con un máximo de dos plazas de asiento, incluida la plaza de asiento del conductor.",
-          "def-en":"They have the consideration of moped the vehicles that are defined as follows:\n\n **Two-wheeled moped**\n\n Vehicle with two wheels that must simultaneously meet these two characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Be equipped with an engine:\n\n - With a displacement inferior or equal to 50 cm³ if it is an internal combustion engine.\n\n - With a maximum continuous power output inferior or equal to 4 kW if it is electric.\n\n **Three-wheeled moped**\n\n Vehicle with three wheels that must simultaneously meet these two characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Be equipped with an engine:\n\n - With a displacement inferior or equal to 50 cm³ for spark-ignited engines.\n\n - With a maximum net power output inferior or equal to 4 kW for other internal combustion engines.\n\n - With a maximum continuous nominal power output inferior or equal to 4 kW if it is electric.\n\n **Light quadricycle (or cuadriciclo)**\n\n Vehicle with four wheels that meets, among others, the following characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Weigh no more than 435 kg in running order.\n\n 3. Be equipped with an engine with a displacement inferior or equal to 50 cm³ for spark-ignited engines, or inferior or equal to 500 cm³ for compression-ignited engines.\n\n 4. Have a maximum of two seats, including the driver's seat."
-        },
-        {
-          "id": 18,
-          "palabra": "Vehículo para personas de movilidad reducida",
-          "word": "mobility scooter",
-          "def": "Vehículo que reúne las siguientes características:\n\n 1. Tener una tara no superior a 350 kg.\n\n 2. No poder alcanzar en llano, por construcción, una velocidad superior a 45 km/h.\n\n 3. Haber sido proyectado y construido especialmente (y no meramente adaptado) para el uso de personas con alguna disfunción o incapacidad física.\n\n En cuanto al resto de sus características técnicas se les equiparará a los ciclomotores de tres ruedas.",
-          "def-en": "Vehicle that meets the following characteristics:\n\n 1. Having a curb weight not exceeding 350 kg.\n\n 2. Not being able to reach a speed of more than 45 km/h on flat terrain by design.\n\n 3. Being specially designed and built for use by individuals with some physical disability or impairment.\n\n Equivalent to three-wheeled motorcycles."
-        },
-        {
-          "id": 19,
-          "palabra": "Vehículo de movilidad personal",
-          "word": "Personal mobility vehicle (usually e-bikes & e-scooters)",
-          "def": "Vehículo de una o más ruedas dotado de una única plaza y propulsado exclusivamente por motores eléctricos que pueden proporcionar al vehículo una velocidad máxima entre 6 y 25 km/h.\n\n Solo puede estar equipado con un asiento o sillín si está dotado de sistema de autoequilibrado.\n\n Se exluyen de esta definición los vehículos sin sistema de autoequilibrado y con sillín, los vehículos concebidos para la competición, los vehículos para personas con movilidad reducida y los vehículos con una tensión de trabajo mayor a 100 VCC o 240 VAC, así como aquellos incluidos dentro del ámbito del Reglamento (UE) n.° 168/2013: patinetes con asiento, ciclos de motor, etc.",
-          "def-en": "Vehicle with one or more wheels equipped with a single seat and exclusively propelled by electric motors that can provide the vehicle a maximum speed between 6 and 25 km/h.\n\n It can only be equipped with a seat or saddle if it is fitted with an auto-balancing system (e.g.: a stand).\n\n Excluded from this definition are vehicles without an auto-balancing system and with a seat, competition-conceived vehicles, vehicles for persons with reduced mobility, vehicles with a working tension higher than 100 VCC or 240 VAC, as well as those included within the scope of Regulation (EU) No. 168/2013: scooters with seats, motor cycles, etc.\n\n"
+    },
+    {
+      "id": 7,
+      "palabra": "automóvil",
+      "word": "automobile",
+      "def": "Vehículo a motor que sirve, normalmente, para el transporte de personas cosas, o ambas a la vez, o para la tracción de otros vehículos con aquel fin. Se excluyen de esta definición los vehículos especiales.",
+      "def-en": "A motorized vehicle that is normally used to transport people, things, or both at the same time, or for towing other vehicles. Specialized vehicles are excluded from this definition."
+    },
+    {
+      "id": 8,
+      "palabra": "vehículo especial",
+      "word": "specialized vehicles",
+      "def": "Vehículo, autopropulsado o remolcado, concebido y construido para realizar obras o servicios determinados y que, por sus características, está exceptuado de cumplir alguna de las condiciones técnicas exigidas en el Reglamento General de Vehículoso sobrepasa permanentemente los límites establecidos en el mismo para masas o dimensiones, así como la maquinaria agrícola y sus remolques.",
+      "def-en": "A vehicle, self-propelled or towed, designed and built to carry out specific works or services which, due to its characteristics, is exempt from complying with any of the technical conditions required in the General Vehicle Regulations or permanently exceeds the limits established therein for masses or dimensions, as well as agricultural machinery and its trailers."
+    },
+    {
+      "id": 9,
+      "palabra": "vehículo de tracción animal",
+      "word": "animal-drawn vehicles",
+      "def": "Vehículo arrastrado por animales.",
+      "def-en": "Vehicles pulled by animals."
+    },
+    {
+      "id": 10,
+      "palabra": "ciclos",
+      "word": "cycles",
+      "def": "Vehículo provisto de, al menos, dos ruedas y propulsado exclusiva o principalmente por la energía muscular de la persona o personas que están sobre el vehículo, en particular por medio de pedales.",
+      "def-en": "A vehicle fitted with at least two wheels and propelled exclusively or mainly by the muscular energy of the person or persons on the vehicle, in particular by means of pedals."
+    },
+    {
+      "id": 11,
+      "palabra": "bicicleta",
+      "word": "bicycle",
+      "def": "Ciclo de dos ruedas",
+      "def-en": "Two-wheeled cycle."
+    },
+    {
+      "id": 13,
+      "palabra": "bicicleta de pedales con pedaleo asistido",
+      "word": "pedal assisted bycicle.",
+      "def": "Bicicleta equipada con un motor eléctrico auxiliar, de potencia nominal continua máxima inferior o igual a 250 W, cuya potencia dismuniya progresivamente y que finalmente se interrumpa antes de que la velocidad del vehículo alcance los 25 km/h o si el ciclista deja de pedalear.",
+      "def-en": "A bicycle equipped with an auxiliary electric motor, with a maximum continuous rated power of less than or equal to 250 W, the power of which progressively decreases and is finally interrupted before the speed of the vehicle reaches 25 km/h or if the cyclist stops pedalling."
+    },
+    {
+      "id": 14,
+      "palabra": "remolque",
+      "word": "trailer",
+      "def": "Vehículo no autopropulsado diseñado y concebido para ser remolcado por un vehículo a motor. Son remolques ligeros aquellos cuya masa máxima autorizada no excede de 750 kg (a efectos de esta clasificación no se incluyen los remolques agrícolas).\n\n Son remolques no ligeros aquellos cuya masa máxima autorizada excede 750 kg.",
+      "def-en": "A non-self-propelled vehicle designed and conceived to be towed by a motor vehicle. Light trailers are those whose maximum authorised mass does not exceed 750 kg (agricultural trailers are not included for the purposes of this classification).\n\n Non-light trailers are those whose maximum authorised mass exceeds 750 kg."
+    },
+    { 
+      "id": 15,
+      "palabra": "semirremolque",
+      "word": "semitrailer",
+      "def": "Vehículo no autopropulsado diseñado y concebido para ser acoplado a un automóvil, sobre el que reposará parte del mismo, transferíendole una parte sustancial de su masa. Son semirremolques ligeros aquellos cuya masa máxima autorizada no excede 750 kg (a efectos de esta clasificación no se incluyen los semirremolques agrícolas). Son semirremolques no ligeros quellos cuya masa máxima autorizada excede de 750 kg.",
+      "def-en": "Non-self-propelled vehicle designed and conceived to be coupled to an automobile, on which part of it will rest, transferring a substantial part of its mass to it. Light semi-trailers are those whose maximum authorised mass does not exceed 750 kg (agricultural semi-trailers are not included for the purposes of this classification). Non-light semi-trailers are those whose maximum authorised mass exceeds 750 kg."
+    },
+    { 
+      "id": 16,
+      "palabra": "tranvía",
+      "word": "tram",
+      "def": "Vehículo que marcha por raíles instalados en la vía.",
+      "def-en": "Vehicle that runs on rails installed along the road."
+    },
+    {
+      "id": 17,
+      "palabra": "ciclomotor",
+      "word": "mopeds",
+      "def": "Tienen la consideración de ciclomotores los vehículos que se definen a continuación:\n\n **Ciclomotor de dos ruedas**\n\n Vehículo de dos ruedas que debe reunir simultneamente estas dos características:\n\n 1. Alcanzar, por construcción, una velocidad máxima no superior a 45 km/h.\n\n 2. Estar provisto de un motor:\n\n - De cilindrada inferior o igual a 50 cm³, si es de combustion interna.\n\n - Con una potencia continua nominal máxima inferior o igual a 4 kW, si es électrico.\n\n **Ciclomotor de tres ruedas**\n\n  Vehículo de tres ruedas que debe reunir simultáneamente estas dos características:\n\n 1. Alcanzar. por construcción, una velocidad máxima no superior a 45 km/h.\n\n 2. Estar proisto de un motor:\n\n - De cilindrada inferior o igual a 50 cm³ para los motores de encedido por chispa (positiva).\n\n - Cuya potencia máxima neta sea inferior o igual a 4 kW, para los demás motores de combustión interna.\n\n - Cuya potencia continua nominal máxima sea inferior o igual a 4 kW, para los motores électricos.\n\n **Cuatriciclo (o cuadriciclo) ligero**\n\n Vehículo de cuatro ruedas que reúne, entre otras, las siguientes características:\n\n 1. Alcanzar, por construcción, una velocidad máxima inferior o igual a 45 km/h.\n\n 2. Poseer una masa en orden de marcha inferior o igual a 435 kg.\n\n 3. Estar provisto de un motor de cilindrada inferior o igual a 50 cm³ ara los motores de encendido por chispa o inferor o igual a 500 cm³ para los motores de encendido por compresión.\n\n 4. Estar equipado con un máximo de dos plazas de asiento, incluida la plaza de asiento del conductor.",
+      "def-en":"They have the consideration of moped the vehicles that are defined as follows:\n\n **Two-wheeled moped**\n\n Vehicle with two wheels that must simultaneously meet these two characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Be equipped with an engine:\n\n - With a displacement inferior or equal to 50 cm³ if it is an internal combustion engine.\n\n - With a maximum continuous power output inferior or equal to 4 kW if it is electric.\n\n **Three-wheeled moped**\n\n Vehicle with three wheels that must simultaneously meet these two characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Be equipped with an engine:\n\n - With a displacement inferior or equal to 50 cm³ for spark-ignited engines.\n\n - With a maximum net power output inferior or equal to 4 kW for other internal combustion engines.\n\n - With a maximum continuous nominal power output inferior or equal to 4 kW if it is electric.\n\n **Light quadricycle (or cuadriciclo)**\n\n Vehicle with four wheels that meets, among others, the following characteristics:\n\n 1. Reach, by design, a maximum speed no greater than 45 km/h.\n\n 2. Weigh no more than 435 kg in running order.\n\n 3. Be equipped with an engine with a displacement inferior or equal to 50 cm³ for spark-ignited engines, or inferior or equal to 500 cm³ for compression-ignited engines.\n\n 4. Have a maximum of two seats, including the driver's seat."
+    },
+    {
+      "id": 18,
+      "palabra": "Vehículo para personas de movilidad reducida",
+      "word": "mobility scooter",
+      "def": "Vehículo que reúne las siguientes características:\n\n 1. Tener una tara no superior a 350 kg.\n\n 2. No poder alcanzar en llano, por construcción, una velocidad superior a 45 km/h.\n\n 3. Haber sido proyectado y construido especialmente (y no meramente adaptado) para el uso de personas con alguna disfunción o incapacidad física.\n\n En cuanto al resto de sus características técnicas se les equiparará a los ciclomotores de tres ruedas.",
+      "def-en": "Vehicle that meets the following characteristics:\n\n 1. Having a curb weight not exceeding 350 kg.\n\n 2. Not being able to reach a speed of more than 45 km/h on flat terrain by design.\n\n 3. Being specially designed and built for use by individuals with some physical disability or impairment.\n\n Equivalent to three-wheeled motorcycles."
+    },
+    {
+      "id": 19,
+      "palabra": "Vehículo de movilidad personal",
+      "word": "Personal mobility vehicle (usually e-bikes & e-scooters)",
+      "def": "Vehículo de una o más ruedas dotado de una única plaza y propulsado exclusivamente por motores eléctricos que pueden proporcionar al vehículo una velocidad máxima entre 6 y 25 km/h.\n\n Solo puede estar equipado con un asiento o sillín si está dotado de sistema de autoequilibrado.\n\n Se exluyen de esta definición los vehículos sin sistema de autoequilibrado y con sillín, los vehículos concebidos para la competición, los vehículos para personas con movilidad reducida y los vehículos con una tensión de trabajo mayor a 100 VCC o 240 VAC, así como aquellos incluidos dentro del ámbito del Reglamento (UE) n.° 168/2013: patinetes con asiento, ciclos de motor, etc.",
+      "def-en": "Vehicle with one or more wheels equipped with a single seat and exclusively propelled by electric motors that can provide the vehicle a maximum speed between 6 and 25 km/h.\n\n It can only be equipped with a seat or saddle if it is fitted with an auto-balancing system (e.g.: a stand).\n\n Excluded from this definition are vehicles without an auto-balancing system and with a seat, competition-conceived vehicles, vehicles for persons with reduced mobility, vehicles with a working tension higher than 100 VCC or 240 VAC, as well as those included within the scope of Regulation (EU) No. 168/2013: scooters with seats, motor cycles, etc.\n\n"
 
-        } 
-      ],
-      "automóviles": [
-        "motocicletas": [
-          {
-            "id": 20,
-            "palabra": "motocicleta",
-            "word": "motorcycle",
-            "def": "Tienen la consideración de motocicletas los automóviles que se definen en los dos epígrafes siguientes:\n\n **Motocicletas de dos ruedas**\n\n Vehículo de dos ruedas sin sidecar que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por la construcción, una velocidad máxima superior a 45 km/h.\n\n **Motocicleta con sidecar**\n\n Vehículo de tres ruedas asimétricas respecto a su eje medio longitudinal, que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
-            "def-en": "Motorcycles are considered vehicles that meet the definitions in the two following sections:\n\n **Two-wheeled motorcycles**\n\n A vehicle with two wheels without a sidecar that has at least one of the following characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h.\n\n **Motorcycle with sidecar**\n\n A vehicle with three wheels asymmetrically arranged relative to its median longitudinal axis that has at least one of the following characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
+    },
+    {
+      "id": 20,
+      "palabra": "motocicleta",
+      "word": "motorcycle",
+      "def": "Tienen la consideración de motocicletas los automóviles que se definen en los dos epígrafes siguientes:\n\n **Motocicletas de dos ruedas**\n\n Vehículo de dos ruedas sin sidecar que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por la construcción, una velocidad máxima superior a 45 km/h.\n\n **Motocicleta con sidecar**\n\n Vehículo de tres ruedas asimétricas respecto a su eje medio longitudinal, que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
+      "def-en": "Motorcycles are considered vehicles that meet the definitions in the two following sections:\n\n **Two-wheeled motorcycles**\n\n A vehicle with two wheels without a sidecar that has at least one of the following characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h.\n\n **Motorcycle with sidecar**\n\n A vehicle with three wheels asymmetrically arranged relative to its median longitudinal axis that has at least one of the following characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
+    },
+    {
+      "id": 21,
+      "palabra": "Vehículo de tres ruedas",
+      "word": "Three-wheeled vehicle",
+      "def": "Automóvil de tres ruedas simétricas que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
+      "def-en": "Three-wheeled automobile with symmetrical wheels that has at least one of the following two characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
+    },
+    {
+      "id": 22,
+      "palabra": "cuatriciclo (o cuadricilo) pesado",
+      "word": "heavy four-wheeler (or quad)",
+      "def": "Automóvil de cuatro ruedas que reúne, entre otras, las siguientes características:\n\n 1. Tener una masa en orden de marcha inferior o igual a 450 kg (600 kg si se trata de vehiculos destinados al transporte de mercancías).\n\n 2. Poseer un motor cuya potencia nominal o neta continua máxima sea inferior o igual a 15 kW.",
+      "def-en": "Four-wheeled automobile that meets, among others, the following characteristics:\n\n 1. Having a curb weight of 450 kg or less (600 kg for vehicles intended for goods transport).\n\n 2. Having a motor with a nominal or continuous maximum power of 15 kW or less."
+    },
+    {
+      "id": 23,
+      "palabra": "turismo",
+      "word": "car",
+      "def": "Automóvil destinado al transporte de personas que tiene:\n\n 1. Cuatro ruedas, al menos.\n\n 2. Ocho plazas como máximo, además del asiento del conductor.",
+      "def-en": "Automobile intended for transporting people that has:\n\n 1. At least four wheels.\n\n 2. A maximum of eight seats, plus the driver's seat."
+    },
+    {
+      "id": 24,
+      "palabra": "derivado de turismo",
+      "word": "LVC (light commercial vehicle)",
+      "def": "Automóvil destinado a servicios o a transporte exclusivo de mercancías, derivado de un turismo del cual conserva la carrocería y dispone únicamente de una fila de asientos.",
+      "def-en": "Automobile intended for services or exclusive goods transport, derived from a car-derived van that retains its original bodywork and has only one row of seats."
+    },
+    {
+      "id": 25,
+      "palabra": "pick-up",
+      "word": "pick-up",
+      "def": "Vehículo cuya masa máxima no es superior a 3,500 kg en la que las plazas de asiento y la zona de carga no están situadas en un compartimento único.",
+      "def-en": "Vehicle whose maximum weight is not greater than 3,500 kg, in which the seating areas and load area are not situated in a single compartment."
+    },
+    {
+      "id": 26,
+      "palabra": "vehículo mixto adaptable",
+      "word": "car-derived van",
+      "def": "Automóvil especialmente dispuesto para el transporte, simultáneo o no, de mercancias y personas hasta un máximo de 9, incluido el conductor, y en el que se puede sustituir eventualmente la carga, parcial o totalmente, por personas mediante la adición de asientos.",
+      "def-en": ""
+    },
+    {
+      "id": 27,
+      "palabra": "autocaravana",
+      "word": "",
+      "def": "Vehículo construido con propósito especial, incluyendo alojamiento vivienda y conteniendo, al menos, el equipo siguiente asientos y mesa, camas o literas que puedan ser convertidos en asientos, cocina y armarios o similares. Este equipo estará, rígidamente fijado al compartimento vivienda los asientos y la mesa pueden ser diseñados para ser desmontados fácilmente.",
+      "def-en": ""
+    },
+    {
+      "id": 28,
+      "palabra": "autobús o autocar",
+      "word": "",
+      "def": "Automóvil que tenga más de 9 plazas incluida la del conductor, destinado por su construcción y acondicionamiento, al transporte de personas y su equipamento.\n Se incluye en este término el trolebús, es decir el vehículo conectado a una línea eléctrica y no circula por raíles.",
+      "def-en": ""
+    },
+    {
+      "id": 29,
+      "palabra": "camión",
+      "word": "",
+      "def": "Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina no está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluyendo el conductor.",
+      "def-en": ""
+    },
+    {
+      "id": 30,
+      "palabra": "furgón/furgoneta",
+      "word": "",
+      "def": "Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluyendo el conductor.",
+      "def-en": ""
+    },
+    {
+      "id": 31,
+      "palabra": "tractocamión",
+      "word": "",
+      "def": "Automóvil concebido y construido para realizar, principalmente, el arrastre de un semirremolque.",
+      "def-en": ""
+    },
+    {
+      "id": 32,
+      "palabra": "conjunto de vehículos",
+      "word": "",
+      "def": "Automóvil formado por un vehículo a motor al que se le ha enganchado o acoplado un remolque o semirremolque. Dependiendo de la naturaleza del vehículo remolcado puede ser un tren de carretera o un vehículo articulado.",
+      "def-en": ""
+    },
+    {
+      "id": 33,
+      "palabra": "tren de carretera",
+      "word": "",
+      "def": "Automóvil construido de un vehículo a motor, enganchado a un remolque.",
+      "def-en": ""
+    },
+    {
+      "id": 34,
+      "palabra": "vehículo articulado",
+      "word": "",
+      "def": "Automóvil construido de un vehículo a motor, acoplado a un semirremolque.",
+      "def-en": ""
+    },
+    {
+      "id": 35,
+      "palabra": "configuracion euro-modular",
+      "word": "",
+      "def": "Conjunto de vehículos de más de 6 líneas de eje, cuyos módulos separadamente no superan los límites de masas y dimensiones establecidos por el tipo de vehículo que corresponda.",
+      "def-en": ""
+    }, 
+    {
+      "id": 36,
+      "palabra": "quad-atv",
+      "word": "",
+      "def": "Vehículo especial de cuatro o más ruedas fabricados para usos específicos muy concretos, con utilización fundamentalmente fuera de carretera, de dirección mediante manillár, en el que el conductor va sentado a horcajadas y dotado de un sistema de tracción aduecuado al uso fuera de carretera y cuya velocidad puede estar limitida en funcción de sus características o uso. ", 
+      "def-en": ""
+    },
+    {
+      "id": 37,
+      "palabra": "tractor",
+      "word": "",
+      "def": "Vehículo especial autopropulsado, de dos o más ejes, concebido y construido para arrastrar, empujar, llevar o accionar aperosm, útiles, maquinaria o semirremolques. Los tractores pueden ser agrícolas o de obras y de servicios.",
+      "def-en": ""
+    },
+    {
+      "id": 38,
+      "palabra": "motocultor",
+      "word": "",
+      "def": "Vehículo especial autopropulsado, de un eje dirigible por manceras por un conductor que marcha a pie. Ciertos motocultores pueden, también, ser dirigidos desde un asiento incorporado a un remolque o máquina agrícola o a un apero o bastidor auxiliar con ruedas.",
+      "def-en": ""
+    },
+    {
+      "id": 39,
+      "palabra": "máquina automotriz",
+      "word": "",
+      "def": "Vehículo especial autopropulsado, de dos o más ejes, concebido y construido para efectuar trabjos agrícolas, trabajos de obra o servicios determinados.\n\n Las máquinas automotrices pueden ser agrícolas, de obras y de servicios.",
+      "def-en": ""
+    },
+    {
+      "id": 40,
+      "palabra": "remolque agrícola",
+      "word": "",
+      "def": "Vehículo especial de transporte construido y destinado para ser arrastrado por un tractor agrícola, motocultor, portador o máquina automotriz. Se incluyen en esta definición a los semirremolques agrícolas.",
+      "def-en": ""
+    },
+    {
+      "id": 41,
+      "palabra": "máquina remolcada",
+      "word": "",
+      "def": "Vehículo especial concebido y construido para efectuar trabajos agrícolas, trabajos de obras o servicios determinados que, para trasladarse y maniobrar debe ser arrastrado o empujado por un vehículo especial autopropulsado. Las máquinas arrastradas pueden ser agrícolas, de obras y de servicios.\n\n Se excluyen de esta definición los aperos agrícolas, extendiéndose por tales los útiles o instrumentos agrícolas, sin motor, construidos y concebidos para efectuar trabajos de preparación de terreno, o laboreo, que además, no se consideran vehículos, así como también el resto de máquinaria agrícola remolcada de menos de 750 kg de masa.",
+      "def-en": ""
+    },
+    {
 
-
-          }
-        ],
-        {
-          "id": 21,
-          "palabra": "Vehículo de tres ruedas",
-          "word": "Three-wheeled vehicle",
-          "def": "Automóvil de tres ruedas simétricas que posee al menos una de estas dos características:\n\n 1. Estar provisto de un motor de cilindrada superior a 50 cm³, si es de combustión interna.\n\n 2. Alcanzar, por construcción, una velocidad máxima superior a 45 km/h.",
-          "def-en": "Three-wheeled automobile with symmetrical wheels that has at least one of the following two characteristics:\n\n 1. Being equipped with an internal combustion engine with a cylinder capacity greater than 50 cm³.\n\n 2. Reaching, by design, a maximum speed exceeding 45 km/h."
-        },
-        {
-          "id": 22,
-          "palabra": "cuatriciclo (o cuadricilo) pesado",
-          "word": "heavy four-wheeler (or quad)",
-          "def": "Automóvil de cuatro ruedas que reúne, entre otras, las siguientes características:\n\n 1. Tener una masa en orden de marcha inferior o igual a 450 kg (600 kg si se trata de vehiculos destinados al transporte de mercancías).\n\n 2. Poseer un motor cuya potencia nominal o neta continua máxima sea inferior o igual a 15 kW.",
-          "def-en": "Four-wheeled automobile that meets, among others, the following characteristics:\n\n 1. Having a curb weight of 450 kg or less (600 kg for vehicles intended for goods transport).\n\n 2. Having a motor with a nominal or continuous maximum power of 15 kW or less."
-        },
-        {
-          "id": 23,
-          "palabra": "turismo",
-          "word": "car",
-          "def": "Automóvil destinado al transporte de personas que tiene:\n\n 1. Cuatro ruedas, al menos.\n\n 2. Ocho plazas como máximo, además del asiento del conductor.",
-          "def-en": "Automobile intended for transporting people that has:\n\n 1. At least four wheels.\n\n 2. A maximum of eight seats, plus the driver's seat."
-        },
-        {
-          "id": 24,
-          "palabra": "derivado de turismo",
-          "word": "LVC (light commercial vehicle)",
-          "def": "Automóvil destinado a servicios o a transporte exclusivo de mercancías, derivado de un turismo del cual conserva la carrocería y dispone únicamente de una fila de asientos.",
-          "def-en": "Automobile intended for services or exclusive goods transport, derived from a car-derived van that retains its original bodywork and has only one row of seats."
-        },
-        {
-          "id": 25,
-          "palabra": "pick-up",
-          "word": "pick-up",
-          "def": "Vehículo cuya masa máxima no es superior a 3,500 kg en la que las plazas de asiento y la zona de carga no están situadas en un compartimento único.",
-          "def-en": "Vehicle whose maximum weight is not greater than 3,500 kg, in which the seating areas and load area are not situated in a single compartment."
-        },
-        {
-          "id": 26,
-          "palabra": "vehículo mixto adaptable",
-          "word": "car-derived van",
-          "def": "Automóvil especialmente dispuesto para el transporte, simultáneo o no, de mercancias y personas hasta un máximo de 9, incluido el conductor, y en el que se puede sustituir eventualmente la carga, parcial o totalmente, por personas mediante la adición de asientos.",
-          "def-en": ""
-        },
-        {
-          "id": 27,
-          "palabra": "autocaravana",
-          "word": "",
-          "def": "Vehículo construido con propósito especial, incluyendo alojamiento vivienda y conteniendo, al menos, el equipo siguiente asientos y mesa, camas o literas que puedan ser convertidos en asientos, cocina y armarios o similares. Este equipo estará, rígidamente fijado al compartimento vivienda los asientos y la mesa pueden ser diseñados para ser desmontados fácilmente.",
-          "def-en": ""
-        },
-        {
-          "id": 28,
-          "palabra": "autobús o autocar",
-          "word": "",
-          "def": "Automóvil que tenga más de 9 plazas incluida la del conductor, destinado por su construcción y acondicionamiento, al transporte de personas y su equipamento.\n Se incluye en este término el trolebús, es decir el vehículo conectado a una línea eléctrica y no circula por raíles.",
-          "def-en": ""
-        },
-        {
-          "id": 29,
-          "palabra": "camión",
-          "word": "",
-          "def": "Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina no está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluyendo el conductor.",
-          "def-en": ""
-        },
-        {
-          "id": 30,
-          "palabra": "furgón/furgoneta",
-          "word": "",
-          "def": "Automóvil con cuatro ruedas o más, concebido y construido para el transporte de mercancías, cuya cabina está integrada en el resto de la carrocería y con un máximo de 9 plazas, incluyendo el conductor.",
-          "def-en": ""
-        },
-        {
-          "id": 31,
-          "palabra": "tractocamión",
-          "word": "",
-          "def": "Automóvil concebido y construido para realizar, principalmente, el arrastre de un semirremolque.",
-          "def-en": ""
-        },
-        {
-          "id": 32,
-          "palabra": "conjunto de vehículos",
-          "word": "",
-          "def": "Automóvil formado por un vehículo a motor al que se le ha enganchado o acoplado un remolque o semirremolque. Dependiendo de la naturaleza del vehículo remolcado puede ser un tren de carretera o un vehículo articulado.",
-          "def-en": ""
-        },
-        {
-          "id": 33,
-          "palabra": "tren de carretera",
-          "word": "",
-          "def": "Automóvil construido de un vehículo a motor, enganchado a un remolque.",
-          "def-en": ""
-        },
-        {
-          "id": 34,
-          "palabra": "vehículo articulado",
-          "word": "",
-          "def": "Automóvil construido de un vehículo a motor, acoplado a un semirremolque.",
-          "def-en": ""
-        },
-        {
-          "id": 35,
-          "palabra": "configuracion euro-modular",
-          "word": "",
-          "def": "Conjunto de vehículos de más de 6 líneas de eje, cuyos módulos separadamente no superan los límites de masas y dimensiones establecidos por el tipo de vehículo que corresponda.",
-          "def-en": ""
-        }
-      ],
-      "vehículos especiales": [
-        "vehículos a motor": [
-          {
-            "id": 36,
-            "palabra": "quad-atv",
-            "word": "",
-            "def": "Vehículo especial de cuatro o más ruedas fabricados para usos específicos muy concretos, con utilización fundamentalmente fuera de carretera, de dirección mediante manillár, en el que el conductor va sentado a horcajadas y dotado de un sistema de tracción aduecuado al uso fuera de carretera y cuya velocidad puede estar limitida en funcción de sus características o uso. ", 
-            "def-en": ""
-          },
-          {
-            "id": 37,
-            "palabra": "tractor",
-            "word": "",
-            "def": "Vehículo especial autopropulsado, de dos o más ejes, concebido y construido para arrastrar, empujar, llevar o accionar aperosm, útiles, maquinaria o semirremolques. Los tractores pueden ser agrícolas o de obras y de servicios.",
-            "def-en": ""
-          },
-          {
-            "id": 38,
-            "palabra": "motocultor",
-            "word": "",
-            "def": "Vehículo especial autopropulsado, de un eje dirigible por manceras por un conductor que marcha a pie. Ciertos motocultores pueden, también, ser dirigidos desde un asiento incorporado a un remolque o máquina agrícola o a un apero o bastidor auxiliar con ruedas.",
-            "def-en": ""
-          },
-          {
-            "id": 39,
-            "palabra": "máquina automotriz",
-            "word": "",
-            "def": "Vehículo especial autopropulsado, de dos o más ejes, concebido y construido para efectuar trabjos agrícolas, trabajos de obra o servicios determinados.\n Las máquinas automotrices pueden ser agrícolas, de obras y de servicios.",
-            "def-en": ""
-          },
-          "vehículos remolcados": [
-            {
-              "id": 40,
-              "palabra": "remolque agrícola",
-              "word": "",
-              "def": "Vehículo especial de transporte construido y destinado para ser arrastrado por un tractor agrícola, motocultor, portador o máquina automotriz. Se incluyen en esta definición a los semirremolques agrícolas.",
-              "def-en": ""
-            },
-            {
-              "id": 41,
-              "palabra": "máquina remolcada",
-              "word": "",
-              "def": "Vehículo especial concebido y construido para efectuar trabajos agrícolas, trabajos de obras o servicios determinados que, para trasladarse y maniobrar debe ser arrastrado o empujado por un vehículo especial autopropulsado. Las máquinas arrastradas pueden ser agrícolas, de obras y de servicios.\n Se excluyen de esta definición los aperos agrícolas, extendiéndose por tales los útiles o instrumentos agrícolas, sin motor, construidos y concebidos para efectuar trabajos de preparación de terreno, o laboreo, que además, no se consideran vehículos, así como también el resto de máquinaria agrícola remolcada de menos de 750 kg de masa.",
-              "def-en": ""
-            }
-          ]
-        ]
-      ]
-    ],
-    "otras definiciones": [
-      {
-
-        "id": 42,
-        "palabra": "tara",
-        "word": "",
-        "def": "Masa del vehículo, con su equipaje fijo autorizado, sin personal de servicio, pasajeros, ni carga y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios necesarios.",
-        "def-en": ""
-      },
-      {
-        "id": 43,
-        "palabra": "",
-        "word": "",
-        "def": "",
-        "def-en": ""
-      },
-      {
-        "id": 44,
-        "palabra": "",
-        "word": "",
-        "def": "",
-        "def-en": ""
-      },
-      {
-        "id": 45,
-        "palabra": "",
-        "word": "",
-        "def": "",
-        "def-en": ""
-      },
-      {
-        "id": 46,
-        "palabra": "",
-        "word": "",
-        "def": "",
-        "def-en": ""
-      },
-      {
-        "id": 47,
-        "palabra": "",
-        "word": "",
-        "def": "",
-        "def-en": ""
-      }
-    ]
+      "id": 42,
+      "palabra": "tara",
+      "word": "",
+      "def": "Masa del vehículo, con su equipaje fijo autorizado, sin personal de servicio, pasajeros, ni carga y con su dotación completa de agua, combustible, lubricante, repuestos, herramientas y accesorios necesarios.",
+      "def-en": ""
+    },
+    {
+      "id": 43,
+      "palabra": "",
+      "word": "",
+      "def": "",
+      "def-en": ""
+    },
+    {
+      "id": 44,
+      "palabra": "",
+      "word": "",
+      "def": "",
+      "def-en": ""
+    },
+    {
+      "id": 45,
+      "palabra": "",
+      "word": "",
+      "def": "",
+      "def-en": ""
+    },
+    {
+      "id": 46,
+      "palabra": "",
+      "word": "",
+      "def": "",
+      "def-en": ""
+    },
+    {
+      "id": 47,
+      "palabra": "",
+      "word": "",
+      "def": "",
+      "def-en": ""
+    }
   ]
 }
