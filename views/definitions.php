@@ -48,12 +48,24 @@ function mdClean($s1) {
     <main>
       <div class="defs">
 <?php foreach ($definitions as $def) {
+
+if (isset($def['img'])) {
+$defImg = $def['img'];
+} else {
+    $defImg = null;
+}
+
 $palabra = $def['palabra'];
 $definicion = nl2br($def['def']);
 $word = $def['word'];
 $definition = nl2br($def['def-en']);
 
 echo '<div class="wrapper">';
+if (isset($defImg)) {
+echo '<img class="def-img" src="..' . $defImg . '">';
+} else {
+    echo "";
+}
 echo '<div class="spanish">';
 echo '<div class="title-language">';
 echo '<h3 class="palabra">' . $palabra . '</h3>' . '<img class="flag" src="../assets/svg/flags/4x3/es.svg">' ;

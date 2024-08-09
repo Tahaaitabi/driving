@@ -5,7 +5,8 @@
       "palabra": "conductor",
       "word": "driver",
       "def": "La persona que maneja la dirección o va al mando de un vehículo, con las excepciones que se detallan en la definición de peatón.\n\n La persona a cuyo cargo está un animal o animales.\n\n En los vehículos que circulen en función de aprendizaje de la conducción, el conductor es la persona que está a cargo de los mandos adicionales.",
-      "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\n\n The person in charge of an animal or animals.\n\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls."
+      "def-en": "The person who steers or commands a vehicle, with the exceptions detailed in the definition of pedestrian.\n\n The person in charge of an animal or animals.\n\n In vehicles that circulate in order to learn to drive, the driver is the person who is in charge of the additional controls.",
+      "img": "/assets/images/definitions/conductor.jpg"
     },
     { 
       "id": 2,
@@ -291,37 +292,30 @@
     },
     {
       "id": 43,
-      "palabra": "",
+      "palabra": "masa en carga",
       "word": "",
-      "def": "",
+      "def": "La masa efectiva del vehiculo y de su carga, incluida la masa del personal de servicio y de los pasajeros.",
       "def-en": ""
     },
     {
       "id": 44,
-      "palabra": "",
+      "palabra": "masa por eje",
       "word": "",
-      "def": "",
+      "def": "La que gravita sobre el suelo, transmitida por la totalidad de las ruedas acopladas a ese eje.",
       "def-en": ""
     },
     {
       "id": 45,
-      "palabra": "",
+      "palabra": "masa maxima autorizada(mma)",
       "word": "",
-      "def": "",
+      "def": "La masa maxima para la utilizacion de un vehiculo con carga en circulacion por vias publicas.",
       "def-en": ""
     },
     {
       "id": 46,
-      "palabra": "",
+      "palabra": "masa maxima autorizada del conjunto",
       "word": "",
-      "def": "",
-      "def-en": ""
-    },
-    {
-      "id": 47,
-      "palabra": "",
-      "word": "",
-      "def": "",
+      "def": "Suma de las masas del vehiculo a motor cargado y del remolque arrastrado cargado para su utilizacion por las vias publicas.",
       "def-en": ""
     }
   ]
